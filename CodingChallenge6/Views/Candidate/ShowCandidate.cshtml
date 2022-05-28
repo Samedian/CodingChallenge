@@ -1,0 +1,23 @@
+﻿@Html.BeginForm()
+{
+    <table>
+        <tr>
+            <th>
+                Candidate Id
+            </th>
+            <th>
+                Candidate Name
+            </th>
+        </tr>
+
+        @foreach (var item in ViewBag.Data)
+        {
+            <tr>
+                <td>@item.CandidateId</td>
+                <td>@item.CandidateName</td>
+            </tr>
+        }
+    </table>
+
+    @Html.ActionLink("Index", "Index")
+}

@@ -1,0 +1,27 @@
+Coding Challenge:
+Database: CampusMinds
+tables Cadidates attributes: CandidateID, Name, TechnologyID, LeadID
+Leads: ID, LeadName, TechnologyID
+Technologies: ID, Name, Description
+
+1. Dropdowns for Technologies and Leads ans show candidates in Table
+2. Count of Candidates in Technologies, and count of candidates in leads
+3. Min candidates are 3 per lead
+4. Show this result in Tablet view, web view and mobile using media jquery
+5. Write MS test Moq
+6. Find the uses of Readonly Static, Const
+7. Google Authetication for login 
+
+
+Create an application with below features:
+
+Collection Types and use	
+Serilization Deserilization	
+Executereader, ExecuteNonQuery, ExecuteScalar	
+Connection string	 
+3rdNF	data set	
+Diff between readonly, static, const	
+Disconnected architecture		
+MVC Oath	
+Media Jquery
+Mock MS Test

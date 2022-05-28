@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@Html.BeginForm()
+{
+
+<br />
+<br />
+@Html.ActionLink("Candidate By Lead", "CandidateByLead")
+
+<br />
+<br />
+@Html.ActionLink("Count Candidate By Technology", "CountCandidateByTechnology")
+
+
+<script>
+function myFunction(x) {
+  if (x.matches) { 
+    document.body.style.backgroundColor = "yellow";
+  } else {
+   document.body.style.backgroundColor = "pink";
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x)
+x.addListener(myFunction)
+</script>
+
+}

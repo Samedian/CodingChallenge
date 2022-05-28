@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@Html.BeginForm()
+{
+    <label for="Lead">Choose a Lead:</label>
+    <select name="LeadId">
+
+        @foreach (var item in ViewBag.Data)
+        {
+            <option value="@item.LeadId">@item.LeadName</option>
+
+        }
+    </select>
+    <br><br>
+    <input type="submit" value="Submit" name="Submit">
+}

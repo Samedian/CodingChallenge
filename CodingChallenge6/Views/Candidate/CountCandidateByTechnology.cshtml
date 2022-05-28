@@ -1,0 +1,15 @@
+﻿@Html.BeginForm()
+{
+<label for="Technology">Choose a Technology:</label>
+<select name="TechnologyId">
+
+    @foreach (var item in ViewBag.Data)
+    {
+        <option value="@item.TechonolgyId">@item.TechnologyName</option>
+
+    }
+</select>
+<br>
+<br>
+<input type="submit" value="Submit" name="Submit">
+}
